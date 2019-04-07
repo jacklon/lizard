@@ -5,7 +5,8 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/hunterhug/lizard.svg)](https://github.com/hunterhug/lizard)
 [![Go Report Card](https://goreportcard.com/badge/github.com/hunterhug/lizard)](https://goreportcard.com/report/github.com/hunterhug/lizard)
 [![GitHub issues](https://img.shields.io/github/issues/hunterhug/lizard.svg)](https://github.com/hunterhug/lizard/issues)
-
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu) 
+[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
 ## 一. 介绍
 
