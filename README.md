@@ -8,7 +8,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu) 
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
-重要提示： Web端项目暂不开源，请添加微信: hunterhug
+重要提示：全网采集，看起来既野蛮又霸道，从此不再维护。
 
 ## 一. 介绍
 
