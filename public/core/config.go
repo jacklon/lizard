@@ -19,7 +19,6 @@ package core
 import (
 	"encoding/json"
 	"fmt"
-	"os"
 	"strings"
 
 	"github.com/hunterhug/lizard"
@@ -31,11 +30,11 @@ import (
 )
 
 var (
-	Dir                                       string           = lizard.CoreDir // now root dir core
-	DataDir                                   string                                     //global data dir, diff from Myconfig
-	RedisClient                               *myredis.MyRedis                           // redis
-	BasicDb                                   *mysql.Mysql                               // url db
-	DataDb                                    *mysql.Mysql                               // data db
+	Dir                                       string = lizard.CoreDir // now root dir core
+	DataDir                                   string                  //global data dir, diff from Myconfig
+	RedisClient                               *myredis.MyRedis        // redis
+	BasicDb                                   *mysql.Mysql            // url db
+	DataDb                                    *mysql.Mysql            // data db
 	HashDb                                    *mysql.Mysql
 	MyConfig                                  Config // some config.json
 	AmazonListLog, AmazonAsinLog, AmazonIpLog *log.Logger
@@ -136,25 +135,7 @@ func InitConfig(cfpath string, logpath string) {
 
 	// spider log init and timeout
 	spider.SetLogLevel(MyConfig.Spiderloglevel)
-	sp := spider.NewAPI()
-	sp.SetUrl("http://www.lenggirl.com/xx.xx")
-	data, err := sp.Get()
-	if err != nil {
-		fmt.Println("Network error, retry")
-		os.Exit(0)
-	}
-	if strings.Contains(string(data), "帮帮宝贝回家") {
-		fmt.Println("Network error, retry")
-		os.Exit(0)
-	}
-
-	if strings.Contains(string(data), "#hunterhugxxoo") || (strings.Contains(string(data), "user-"+lizard.User) && lizard.User != "") {
-		fmt.Println("start app")
-	} else {
-		fmt.Println("start app...")
-		fmt.Println("error!")
-		os.Exit(0)
-	}
+	fmt.Println("start app...")
 
 	spidertype := strings.ToLower(MyConfig.Type)
 	switch spidertype {

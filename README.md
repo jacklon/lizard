@@ -8,7 +8,9 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu) 
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
-重要提示：全网采集，看起来既野蛮又霸道，从此不再维护。
+重要提示：全网采集，看起来既野蛮又霸道，从此不再维护并开发新功能。只供学习交流IT技术。请勿使用在生产环境。Only a demo to learn IT skill, don't use in production.
+
+温馨提示：我无法阻止你的一些行为。采集公开的小规模网站数据并不违法，就比如手工复制粘贴，但是稍大规模的自动采集会给服务商服务造成压力，可能有法律风险，请谨慎操作。
 
 ## 一. 介绍
 
@@ -20,8 +22,6 @@
 
 1. [💐Marmot | Web Crawler/HTTP protocol Download Package  🐭](https://github.com/hunterhug/marmot)
 2. [💐Rabbit  | Beego Simple Web| Easy use for everyone🐰](https://github.com/hunterhug/rabbit)
-
-此框架搭建成功，电商小团队（数据需求不超过百万），总体硬件花费大约机器一年1500元，代理IP一年500元，花费不会超出2000元就能拥有一个选款产品.
 
 平台具体使用请查看[亚马逊大数据智能选款平台使用手册v1.2.pdf](%E4%BA%9A%E9%A9%AC%E9%80%8A%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%99%BA%E8%83%BD%E9%80%89%E6%AC%BE%E5%B9%B3%E5%8F%B0%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8Cv1.2.pdf)。 
 
@@ -61,11 +61,16 @@
 
 大类数据，很详细，包括大类排名等，可以复杂查询条件筛选，下载。
 
+![](doc/img/web.png)
+
 ![](doc/img/big.png)
+
 
 产品趋势，你可以看到产品十几天的排名变化，价格变化。
 
 ![](doc/img/trend.png)
+
+![](doc/img/3.png)
 
 导出的EXCEL
 
@@ -77,11 +82,14 @@
 
 ![](doc/img/gosipder.jpg)
 
+![](doc/img/url.jpg)
+
 新的：
 
 ![](doc/img/1.jpg)
 
 ![](doc/img/2.jpg)
+
 
 类目大体如下。
 

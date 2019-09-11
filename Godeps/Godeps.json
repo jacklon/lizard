@@ -1,0 +1,108 @@
+{
+	"ImportPath": "github.com/hunterhug/lizard",
+	"GoVersion": "go1.12",
+	"GodepVersion": "v80",
+	"Deps": [
+		{
+			"ImportPath": "github.com/go-sql-driver/mysql",
+			"Comment": "v1.4.0-30-g877a977",
+			"Rev": "877a9775f06853f611fb2d4e817d92479242d1cd"
+		},
+		{
+			"ImportPath": "github.com/hunterhug/marmot/expert",
+			"Rev": "913c1a0c641974c5c6caab76350aac42f807864e"
+		},
+		{
+			"ImportPath": "github.com/hunterhug/marmot/miner",
+			"Rev": "913c1a0c641974c5c6caab76350aac42f807864e"
+		},
+		{
+			"ImportPath": "github.com/hunterhug/marmot/proxy",
+			"Rev": "913c1a0c641974c5c6caab76350aac42f807864e"
+		},
+		{
+			"ImportPath": "github.com/hunterhug/marmot/util",
+			"Rev": "913c1a0c641974c5c6caab76350aac42f807864e"
+		},
+		{
+			"ImportPath": "github.com/hunterhug/marmot/util/cascadia",
+			"Rev": "913c1a0c641974c5c6caab76350aac42f807864e"
+		},
+		{
+			"ImportPath": "github.com/hunterhug/marmot/util/go-logging",
+			"Rev": "913c1a0c641974c5c6caab76350aac42f807864e"
+		},
+		{
+			"ImportPath": "github.com/hunterhug/marmot/util/goquery",
+			"Rev": "913c1a0c641974c5c6caab76350aac42f807864e"
+		},
+		{
+			"ImportPath": "github.com/hunterhug/marmot/util/html",
+			"Rev": "913c1a0c641974c5c6caab76350aac42f807864e"
+		},
+		{
+			"ImportPath": "github.com/hunterhug/marmot/util/html/atom",
+			"Rev": "913c1a0c641974c5c6caab76350aac42f807864e"
+		},
+		{
+			"ImportPath": "github.com/hunterhug/parrot/store",
+			"Rev": "6af97adffe79ea0ed0fca21d79b7fdf2cd9cd912"
+		},
+		{
+			"ImportPath": "github.com/hunterhug/parrot/store/myredis",
+			"Rev": "6af97adffe79ea0ed0fca21d79b7fdf2cd9cd912"
+		},
+		{
+			"ImportPath": "github.com/hunterhug/parrot/store/mysql",
+			"Rev": "6af97adffe79ea0ed0fca21d79b7fdf2cd9cd912"
+		},
+		{
+			"ImportPath": "github.com/hunterhug/parrot/util",
+			"Rev": "6af97adffe79ea0ed0fca21d79b7fdf2cd9cd912"
+		},
+		{
+			"ImportPath": "github.com/op/go-logging",
+			"Comment": "v1-7-g970db52",
+			"Rev": "970db520ece77730c7e4724c61121037378659d9"
+		},
+		{
+			"ImportPath": "gopkg.in/bsm/ratelimit.v1",
+			"Rev": "db14e161995a5177acef654cb0dd785e8ee8bc22"
+		},
+		{
+			"ImportPath": "gopkg.in/redis.v4",
+			"Comment": "v4.2.4",
+			"Rev": "c938162545c57136fa59879746bc65d0f1db3d1e"
+		},
+		{
+			"ImportPath": "gopkg.in/redis.v4/internal",
+			"Comment": "v4.2.4",
+			"Rev": "c938162545c57136fa59879746bc65d0f1db3d1e"
+		},
+		{
+			"ImportPath": "gopkg.in/redis.v4/internal/consistenthash",
+			"Comment": "v4.2.4",
+			"Rev": "c938162545c57136fa59879746bc65d0f1db3d1e"
+		},
+		{
+			"ImportPath": "gopkg.in/redis.v4/internal/errors",
+			"Comment": "v4.2.4",
+			"Rev": "c938162545c57136fa59879746bc65d0f1db3d1e"
+		},
+		{
+			"ImportPath": "gopkg.in/redis.v4/internal/hashtag",
+			"Comment": "v4.2.4",
+			"Rev": "c938162545c57136fa59879746bc65d0f1db3d1e"
+		},
+		{
+			"ImportPath": "gopkg.in/redis.v4/internal/pool",
+			"Comment": "v4.2.4",
+			"Rev": "c938162545c57136fa59879746bc65d0f1db3d1e"
+		},
+		{
+			"ImportPath": "gopkg.in/redis.v4/internal/proto",
+			"Comment": "v4.2.4",
+			"Rev": "c938162545c57136fa59879746bc65d0f1db3d1e"
+		}
+	]
+}

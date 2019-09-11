@@ -376,12 +376,12 @@ UASIN	4. 抓取详情页，补充大类排名等商品信息，打Mysql大类数
 
 ![](doc/img/3.png)
 
-EXPORT IP DIY，按行写入IP，然后塞，帐号和密码是:jinhan 459527502
+EXPORT IP DIY，按行写入IP，然后塞，帐号和密码是:hunterhug 459527502
 
 `我已经写好了一个米扑代理的接口`，你可以通过打开这个URL导入：
 
 ```
-curl http://127.0.0.1:12346/mi?orderid=cdddddddddd@qq.com&user=jinhan&password=459527502
+curl http://127.0.0.1:12346/mi?orderid=cdddddddddd@qq.com&user=hunterhug&password=123456789
 ```
 
 其中`orderid=cdddddddddd@qq.com` = 后面的是你购买后给你的帐号，其他不变。我建议你还是购买其他的代理IP，毕竟这个产品如果很多人在用，会有IP冲突（某个人如果太暴力，分布式开太多，应该会），就是

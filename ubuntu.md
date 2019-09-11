@@ -161,10 +161,10 @@ crontab -e
 15 2 * * * nohup /root/gocode/src/github.com/hunterhug/lizard/spiders/de/UIP -core=/root/gocode/src/github.com/hunterhug/lizard/public/core -root=/root/gocode/src/github.com/hunterhug/lizard > /dev/null 2>&1 &
 20 2 * * * nohup /root/gocode/src/github.com/hunterhug/lizard/spiders/de/ULIST -core=/root/gocode/src/github.com/hunterhug/lizard/public/core -root=/root/gocode/src/github.com/hunterhug/lizard > /dev/null 2>&1 &
 0 3 * * * nohup /root/gocode/src/github.com/hunterhug/lizard/spiders/de/UASIN -core=/root/gocode/src/github.com/hunterhug/lizard/public/core -root=/root/gocode/src/github.com/hunterhug/lizard > /dev/null 2>&1 &
-*/1 * * * * curl http://127.0.0.1:12345/mi?orderid=cdddddddddd@qq.com\&user=jinhan\&password=459527502 > /dev/null 2>&1 &
-*/1 * * * * curl http://127.0.0.1:12346/mi?orderid=cdddddddddd@qq.com\&user=jinhan\&password=459527502 > /dev/null 2>&1 &
-*/1 * * * * curl http://127.0.0.1:12347/mi?orderid=cdddddddddd@qq.com\&user=jinhan\&password=459527502 > /dev/null 2>&1 &
-*/1 * * * * curl http://127.0.0.1:12348/mi?orderid=cdddddddddd@qq.com\&user=jinhan\&password=459527502 > /dev/null 2>&1 &
+*/1 * * * * curl http://127.0.0.1:12345/mi?orderid=cdddddddddd@qq.com\&user=hunterhug\&password=123456789 > /dev/null 2>&1 &
+*/1 * * * * curl http://127.0.0.1:12346/mi?orderid=cdddddddddd@qq.com\&user=hunterhug\&password=123456789 > /dev/null 2>&1 &
+*/1 * * * * curl http://127.0.0.1:12347/mi?orderid=cdddddddddd@qq.com\&user=hunterhug\&password=123456789 > /dev/null 2>&1 &
+*/1 * * * * curl http://127.0.0.1:12348/mi?orderid=cdddddddddd@qq.com\&user=hunterhug\&password=123456789 > /dev/null 2>&1 &
 
 :wq
 >>>>
@@ -221,10 +221,10 @@ chmod 777 -R file
 # 接着特殊的: 方式二:初始化数据库(包括获取类目URL, 请耐心依次进行, 三个月一次)
 # 需要先进数据库删除数据, 请逐行操作, (cdddddddddd@qq.com请换为自己的用户名: 参见:https://proxy.mimvp.com)
 cd $GOPATH/src/github.com/hunterhug/lizard/tool/url/
-curl "http://127.0.0.1:12345/mi?orderid=cdddddddddd@qq.com&user=jinhan&password=459527502"
-curl "http://127.0.0.1:12346/mi?orderid=cdddddddddd@qq.com&user=jinhan&password=459527502"
-curl "http://127.0.0.1:12347/mi?orderid=cdddddddddd@qq.com&user=jinhan&password=459527502"
-curl "http://127.0.0.1:12348/mi?orderid=cdddddddddd@qq.com&user=jinhan&password=459527502"
+curl "http://127.0.0.1:12345/mi?orderid=cdddddddddd@qq.com&user=hunterhug&password=123456789"
+curl "http://127.0.0.1:12346/mi?orderid=cdddddddddd@qq.com&user=hunterhug&password=123456789"
+curl "http://127.0.0.1:12347/mi?orderid=cdddddddddd@qq.com&user=hunterhug&password=123456789"
+curl "http://127.0.0.1:12348/mi?orderid=cdddddddddd@qq.com&user=hunterhug&password=123456789"
 
 docker exec -it GoSpider-mysqldb mysql -uroot -p123456789
 >>>
@@ -289,7 +289,7 @@ docker exec -it GoSpider-mysqldb mysqldump -uroot -p123456789 jp_smart_base smar
 15 2 * * * nohup /root/gocode/src/github.com/hunterhug/lizard/spiders/usa/UIP -core=/root/gocode/src/github.com/hunterhug/lizard/public/core -root=/root/gocode/src/github.com/hunterhug/lizard -toolnew=1 > /dev/null 2>&1 &
 20 2 * * * nohup /root/gocode/src/github.com/hunterhug/lizard/spiders/usa/ULIST -core=/root/gocode/src/github.com/hunterhug/lizard/public/core -root=/root/gocode/src/github.com/hunterhug/lizard -toolnew=1 > /dev/null 2>&1 &
 0 3 * * * nohup /root/gocode/src/github.com/hunterhug/lizard/spiders/usa/UASIN -core=/root/gocode/src/github.com/hunterhug/lizard/public/core -root=/root/gocode/src/github.com/hunterhug/lizard -toolnew=1 > /dev/null 2>&1 &
-*/1 * * * * curl http://127.0.0.1:12345/mi?orderid=cdddddddddd@qq.com\&user=jinhan\&password=459527502 > /dev/null 2>&1 &
+*/1 * * * * curl http://127.0.0.1:12345/mi?orderid=cdddddddddd@qq.com\&user=hunterhug\&password=123456789 > /dev/null 2>&1 &
 ```
 
 

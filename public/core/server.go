@@ -113,7 +113,7 @@ func help(rw http.ResponseWriter, req *http.Request) {
 	}
 	user := req.Form.Get("user")
 	password := req.Form.Get("password")
-	if user == "jinhan" && password == "123456789" {
+	if user == "hunterhug" && password == "123456789" {
 		io.WriteString(rw, Sentiptoredis(IPPOOL))
 	} else {
 		io.WriteString(rw, "not allow!!")
@@ -128,7 +128,7 @@ func url(rw http.ResponseWriter, req *http.Request) {
 	}
 	user := req.Form.Get("user")
 	password := req.Form.Get("password")
-	if user == "jinhan" && password == "123456789" {
+	if user == "hunterhug" && password == "123456789" {
 		result, err := BasicDb.Select(MyConfig.Urlsql)
 		if err != nil {
 			io.WriteString(rw, err.Error())
@@ -163,7 +163,7 @@ type mixxx struct {
 	C    string `json:"country"`   //"country": "美国"
 }
 
-// http://127.0.0.1:12345/mi?user=jinhan&password=459527502
+// http://127.0.0.1:12345/mi?user=hunterhug&password=123456789
 func mi(rw http.ResponseWriter, req *http.Request) {
 	err := req.ParseForm()
 	if err != nil {
@@ -173,7 +173,7 @@ func mi(rw http.ResponseWriter, req *http.Request) {
 	user := req.Form.Get("user")
 	password := req.Form.Get("password")
 	orderid := req.Form.Get("orderid")
-	if user == "jinhan" && password == "123456789" {
+	if user == "hunterhug" && password == "123456789" {
 		if orderid == "" {
 			return
 		}
@@ -222,7 +222,7 @@ func diy(rw http.ResponseWriter, req *http.Request) {
 	}
 	user := req.Form.Get("user")
 	password := req.Form.Get("password")
-	if user == "jinhan" && password == "123456789" {
+	if user == "hunterhug" && password == "123456789" {
 		ipsmart2016 := []string{}
 		ipstring := req.Form.Get("ips")
 		tempips := strings.Split(ipstring, "\n")
