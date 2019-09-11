@@ -25,6 +25,8 @@
 
 平台具体使用请查看[亚马逊大数据智能选款平台使用手册v1.2.pdf](%E4%BA%9A%E9%A9%AC%E9%80%8A%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%99%BA%E8%83%BD%E9%80%89%E6%AC%BE%E5%B9%B3%E5%8F%B0%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8Cv1.2.pdf)。 
 
+可视化前端系统在此：[https://github.com/hunterhug/lizardWeb](https://github.com/hunterhug/lizardWeb)
+
 ### 1. 中文介绍
 
 用途： 选款，特别适合亚马逊跨境电子商务运营公司(不支持中国亚马逊)。核心竞争力： 四个国际站点：`美国/英国/日本/德国`，分布式，配套后台可视化。
