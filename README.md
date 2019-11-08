@@ -5,12 +5,10 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/hunterhug/lizard.svg)](https://github.com/hunterhug/lizard)
 [![Go Report Card](https://goreportcard.com/badge/github.com/hunterhug/lizard)](https://goreportcard.com/report/github.com/hunterhug/lizard)
 [![GitHub issues](https://img.shields.io/github/issues/hunterhug/lizard.svg)](https://github.com/hunterhug/lizard/issues)
-[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu) 
-[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
 重要提示：全网采集，看起来既野蛮又霸道，从此不再维护并开发新功能。只供学习交流IT技术。请勿使用在生产环境。Only a demo to learn IT skill, don't use in production.
 
-温馨提示：我无法阻止你的一些行为。采集公开的小规模网站数据并不违法，就比如手工复制粘贴，但是稍大规模的自动采集会给服务商服务造成压力，可能有法律风险，请谨慎操作。
+温馨提示：我无法阻止你的一些行为。采集公开的小规模网站数据并不违法，就比如手工复制粘贴，但是稍大规模的自动采集会给服务商服务造成压力，可能有法律风险，请谨慎操作。精细化选款新产品已经开发完毕，正在调试。
 
 ## 一. 介绍
 
@@ -26,6 +24,17 @@
 平台具体使用请查看[亚马逊大数据智能选款平台使用手册v1.2.pdf](%E4%BA%9A%E9%A9%AC%E9%80%8A%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%99%BA%E8%83%BD%E9%80%89%E6%AC%BE%E5%B9%B3%E5%8F%B0%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8Cv1.2.pdf)。 
 
 可视化前端系统在此：[https://github.com/hunterhug/lizardWeb](https://github.com/hunterhug/lizardWeb)
+
+最新图片：
+
+![](doc/img/n1.png)
+
+![](doc/img/n2.png)
+
+![](doc/img/n3.png)
+
+![](doc/img/n4.png)
+![](doc/img/n5.png)
 
 ### 1. 中文介绍
 
