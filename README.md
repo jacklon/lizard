@@ -6,6 +6,11 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/hunterhug/lizard)](https://goreportcard.com/report/github.com/hunterhug/lizard)
 [![GitHub issues](https://img.shields.io/github/issues/hunterhug/lizard.svg)](https://github.com/hunterhug/lizard/issues)
 
+阿里云做活动了，2核4G 云服务器89元/年
+
+https://www.aliyun.com/minisite/goods?userCode=mcpvtmk4&share_source=copy_link
+
+
 此仓库为跨境电商全网选款产品的服务端代码，可视化前端界面仓库在此：[https://github.com/hunterhug/lizardWeb](https://github.com/hunterhug/lizardWeb)
 
 相对温馨的精细化选款新产品已经开发完毕了：[饕餮选款服务端：Golang高性能精细化选款系统](https://github.com/hunterhug/taotie)
