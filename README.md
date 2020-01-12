@@ -6,10 +6,7 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/hunterhug/lizard)](https://goreportcard.com/report/github.com/hunterhug/lizard)
 [![GitHub issues](https://img.shields.io/github/issues/hunterhug/lizard.svg)](https://github.com/hunterhug/lizard/issues)
 
-阿里云做活动了，2核4G 云服务器89元/年
-
-https://www.aliyun.com/minisite/goods?userCode=mcpvtmk4&share_source=copy_link
-
+# [阿里云做活动了，2核4G 云服务器89元/年](https://promotion.aliyun.com/ntms/act/qwbk.html?spm=5176.13735996.J_7116760870.4.53113b5a391iD3&aly_as=VqtyXW-9&userCode=mcpvtmk4)
 
 此仓库为跨境电商全网选款产品的服务端代码，可视化前端界面仓库在此：[https://github.com/hunterhug/lizardWeb](https://github.com/hunterhug/lizardWeb)
 
